@@ -1,3 +1,16 @@
-2021-12-30 13:08:06,429  INFO [TestNG-PoolService-2] TestNGEventListener:23 - testAddProductToCart( '3' 'Смартфони' 'Apple' '100000' ) test case is STARTED
-2021-12-30 13:08:06,431  INFO [TestNG-PoolService-1] TestNGEventListener:23 - testAddProductToCart( '2' 'Холодильники' 'Samsung' '130000' ) test case is STARTED
-2021-12-30 13:08:06,429  INFO [TestNG-PoolService-0] TestNGEventListener:23 - testAddProductToCart( '1' 'Ноутбуки' 'HP' '200000' ) test case is STARTED
+2022-02-06 18:42:39,260  INFO [TestNG-PoolService-0] TestNGEventListener:23 - testAddProductToCart( '1' 'Ноутбуки' 'HP' '200000' ) test case is STARTED
+2022-02-06 18:42:41,958  INFO [TestNG-PoolService-2] TestNGEventListener:23 - testAddProductToCart( '3' 'Смартфони' 'Apple' '100000' ) test case is STARTED
+2022-02-06 18:42:42,263  INFO [TestNG-PoolService-1] TestNGEventListener:23 - testAddProductToCart( '2' 'Холодильники' 'Samsung' '130000' ) test case is STARTED
+2022-02-06 18:43:04,585  INFO [TestNG-PoolService-2] TestNGEventListener:28 - testAddProductToCart( '3' 'Смартфони' 'Apple' '100000' ) test case is PASSED
+2022-02-06 18:43:06,582  INFO [TestNG-PoolService-0] TestNGEventListener:35 - testAddProductToCart( '1' 'Ноутбуки' 'HP' '200000' ): screenshot is taken
+2022-02-06 18:43:06,584 ERROR [TestNG-PoolService-0] TestNGEventListener:36 - testAddProductToCart( '1' 'Ноутбуки' 'HP' '200000' ) test case is FAILED
+2022-02-06 18:43:06,585 ERROR [TestNG-PoolService-0] TestNGEventListener:37 - Actual total price (215099) is more than expected total price (200000) expected [true] but found [false]
+2022-02-06 18:43:06,591  INFO [TestNG-PoolService-1] TestNGEventListener:28 - testAddProductToCart( '2' 'Холодильники' 'Samsung' '130000' ) test case is PASSED
+2022-02-06 18:43:09,341  INFO [TestNG-PoolService-2] TestNGEventListener:23 - testAddProductToCart( '4' 'Книги' 'Freedom' '2000' ) test case is STARTED
+2022-02-06 18:43:10,958  INFO [TestNG-PoolService-0] TestNGEventListener:23 - testAddProductToCart( '5' 'Велосипед' 'Discovery' '10000' ) test case is STARTED
+2022-02-06 18:43:28,464  INFO [TestNG-PoolService-0] TestNGEventListener:28 - testAddProductToCart( '5' 'Велосипед' 'Discovery' '10000' ) test case is PASSED
+2022-02-06 18:43:39,309  INFO [TestNG-PoolService-2] TestNGEventListener:28 - testAddProductToCart( '4' 'Книги' 'Freedom' '2000' ) test case is PASSED
+2022-02-06 18:43:44,642  INFO [main] TestNGEventListener:23 - testShouldBeFailed( 'Ноутбуки' 'HP' '200000' ) test case is STARTED
+2022-02-06 18:43:45,804  INFO [main] TestNGEventListener:35 - testShouldBeFailed( 'Ноутбуки' 'HP' '200000' ): screenshot is taken
+2022-02-06 18:43:45,804 ERROR [main] TestNGEventListener:36 - testShouldBeFailed( 'Ноутбуки' 'HP' '200000' ) test case is FAILED
+2022-02-06 18:43:45,805 ERROR [main] TestNGEventListener:37 - pages.SearchResultsPage.getSellStatusCheckboxValues()Ljava/util/List;
